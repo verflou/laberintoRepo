@@ -13,7 +13,7 @@ function crearLabe(){
 crearLabe()
 
 
-
+f
 function resol(mz,) {
     
 }
