@@ -1,6 +1,6 @@
 let a = 0;
 let b = 0;
-let maze = MkRandMz();
+let maze = crearLabe();
 maze[b][a] = "S";
 
 if (resol(maze, a, b) == true) {
@@ -11,7 +11,7 @@ if (resol(maze, a, b) == true) {
 }
 
 // CREAR LABERINTO
-/*
+
 function crearLabe() {
     let mz = [
         [".", ".", ".", ".", "."],
@@ -22,9 +22,10 @@ function crearLabe() {
     ];
     return mz
 }
-*/
+
 
 //INTENTO CREAR LABERINTO ALEATORIO
+/*
 function MkRandMz() {
     let mz = [
         [".", ".", ".", ".", "."],
@@ -48,6 +49,7 @@ function MkRandMz() {
     }
     return mz;
 }
+*/
 
 // MOSTRAR LABERINTO
 function mostrar() {
